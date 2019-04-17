@@ -94,5 +94,20 @@
                 <DatePicker.FontFamily>Comic Sans MS</DatePicker.FontFamily>
             </DatePicker>
         </StackPanel>
+        <Button Margin="174,233,197,255" Grid.Column="1">
+            <Button.Content>Verify</Button.Content>
+            <Button.FontSize>30</Button.FontSize>
+            <Button.FontFamily>Comic Sans Ms</Button.FontFamily>
+            <Button.Background>
+                <LinearGradientBrush 
+            EndPoint=".5,1" 
+             StartPoint="1,0">
+                    <GradientStop Color="#1c92d2" Offset="1"/>
+                    <GradientStop Color="#f2fcfe" Offset="0.5"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            
+            
+        </Button>
     </Grid>
 </Window>

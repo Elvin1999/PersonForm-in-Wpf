@@ -16,9 +16,8 @@
             <LinearGradientBrush 
             EndPoint=".5,1" 
              StartPoint="1,0">
-                <GradientStop Color="#59c173" Offset="1"/>
-                <GradientStop Color="#a17fe0" Offset="0.5"/>
-                <GradientStop Color="#5d26c1" Offset="0.3"/>
+                <GradientStop Color="#1c92d2" Offset="1"/>
+                <GradientStop Color="#f2fcfe" Offset="0.5"/>
             </LinearGradientBrush>
         </Grid.Background>
         <StackPanel x:Name="PersonFormSP" Grid.ColumnSpan="2" Margin="146,34,146,35">
@@ -29,7 +28,12 @@
                 <System:Double>450</System:Double>
             </StackPanel.Height>
             <StackPanel.Background>
-                <Brush>SpringGreen</Brush>
+                <LinearGradientBrush 
+            EndPoint=".5,1" 
+             StartPoint="1,0">
+                    <GradientStop Color="#1c92d2" Offset="1"/>
+                    <GradientStop Color="#f2fcfe" Offset="0.5"/>
+                </LinearGradientBrush>
             </StackPanel.Background>
             <Label x:Name="lblName" Margin="47,34,424,35">
                 <Label.Height>

@@ -38,6 +38,7 @@
                 <TextBox.Height>
                     <System:Double>40</System:Double>
                 </TextBox.Height>
+                <TextBox.FontSize>20</TextBox.FontSize>
                 <TextBox.Background>
                     <Brush>White</Brush>
                 </TextBox.Background>
@@ -60,7 +61,26 @@
                 <TextBox.Background>
                     <Brush>White</Brush>
                 </TextBox.Background>
+                <TextBox.FontSize>20</TextBox.FontSize>
             </TextBox>
+            <Label x:Name="lblBirthday" Margin="47,0,353,20">
+                <Label.Height>
+                    <System:Double>40</System:Double>
+                </Label.Height>
+                <Label.Width>
+                    200
+                </Label.Width>
+                <Label.Content>Birthday</Label.Content>
+                <Label.FontSize>20</Label.FontSize>
+                <Label.FontFamily>Comic Sans MS</Label.FontFamily>
+            </Label>
+            <DatePicker Name="datePickerBirthday" Margin="47,0,353,20">
+                <DatePicker.Width>200</DatePicker.Width>
+                <DatePicker.Height>40</DatePicker.Height>
+                <DatePicker.Background>White</DatePicker.Background>
+                <DatePicker.FontSize>20</DatePicker.FontSize>
+                <DatePicker.FontFamily>Comic Sans MS</DatePicker.FontFamily>
+            </DatePicker>
         </StackPanel>
     </Grid>
 </Window>
